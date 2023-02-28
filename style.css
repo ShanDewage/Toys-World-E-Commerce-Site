@@ -79,13 +79,13 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: #F3F1F5;
+    background-color: #E6E6FA;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
-    max-height:60px;
+    max-height:80px;
 }
 
 #navbar{
@@ -135,11 +135,11 @@ body{
 }
 
 #hero{
-    background-image: url("img/img-1.jpg");
+    background-image: url("img/hero.jpg");
     height: 90vh;
     width: auto;
     background-size: cover;
-    background-position: top 65% right 0;
+    background-position: top 80% right 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -586,12 +586,13 @@ padding-top: 5px;
 }
 
 #banner-3 .banner-box-2{
-    background-position: top 60% right 0;
+    background-position: top 20% right 0;
     background-image: url(img/banner/b-4.jpg);
 }
 
 #banner-3 .banner-box-3{
     background-image: url(img/banner/b-5.jpg); 
+    background-position: top 100% right 0;
 }
 
 
