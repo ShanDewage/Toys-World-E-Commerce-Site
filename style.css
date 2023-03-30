@@ -127,7 +127,7 @@ body{
 }
 
 #navbar li a:hover::after{
-    content: "";
+   /* content: "";*/
     width:30%;
     height: 2px;
     background: #A555EC;
@@ -138,7 +138,7 @@ body{
 }
 
 #navbar li a.active::after{
-    content: "";
+   /* content: "";*/
     width:30%;
     height: 2px;
     background: #D8BFD8;
@@ -502,11 +502,12 @@ padding-top: 5px;
     background-size: cover;
     background-position: center;
     padding: 30px;
-    background-position: top 90% right 0;  
+    background-position: top 10% right 0;  
 }
 
 #sm-banner .banner-box-2{
     background-image: url(img/banner/b-2.jpg);
+    background-position: top 60% right 0; 
 }
 
 #sm-banner h4{
@@ -603,12 +604,12 @@ padding-top: 5px;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(img/img-newsletter.png);
+    background-image: url(img/img-newsletter.jpg);
     background-repeat: no-repeat;
     background-position:center;
-    background-color: #4B0082;
-    background-size:1250px;
-    
+    background-color: #8A2BE2;
+    background-size:1300px;
+    background-position: top 20% right 50%;   
 }
 
 #newsletter h4{
@@ -618,13 +619,13 @@ padding-top: 5px;
 }
 
 #newsletter p{
-    color: #cecaca;
+    color: #8A2BE2;
     font-size: 14px;
     font-weight: 600;
 }
 
 #newsletter span{
-    color: #ffbd27;
+    color: #FFA500;
 }
 
 #newsletter .form{
@@ -727,6 +728,45 @@ footer .copyright{
 }
 
 
+/*Shop Page*/
+
+#shop-header{
+    background-image:url(img/hero-shop.jpg) ;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: top 90% right 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#shop-header h2,
+#shop-header p{
+    color: #fff;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #8A2BE2;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
 /*Start Media Query*/
 
 @media (max-width:799px){
@@ -744,7 +784,7 @@ footer .copyright{
         right: -300px;
         height: 100vh;
         width: 300px;
-        background-color: #E3E6F3;
+        background-color: #8A2BE2;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 10px;
         transition: 0.3s;
@@ -757,12 +797,14 @@ footer .copyright{
     #navbar li{
         margin-bottom: 25px;
     }
+
     #mobile{
         display: flex;
         align-items: center;
     }
+
     #mobile i{
-        color: #1a1a1a;
+        color: #fff;
         font-size: 24px;
         padding-left: 20px;
     }
@@ -772,7 +814,7 @@ footer .copyright{
         position: absolute;
         top: 30px;
         left: 30px;
-        color: #222;
+        color: #fff;
         font-size: 24px;
     }
 
